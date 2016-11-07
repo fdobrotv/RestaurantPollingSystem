@@ -9,12 +9,12 @@ import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 @Access(AccessType.FIELD)
-public class BaseEntity extends AbstractPersistable<Integer> {
+public class BaseEntity extends AbstractPersistable<Long> {
 
     public BaseEntity() {
     }
 
-    protected BaseEntity(Integer id) {
+    protected BaseEntity(Long id) {
         setId(id);
     }
 

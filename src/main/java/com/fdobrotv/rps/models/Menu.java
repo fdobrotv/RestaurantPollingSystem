@@ -21,7 +21,7 @@ public class Menu extends BaseEntity {
     public Menu() {
     }
 
-    public Menu(Integer id, Restaurant restaurant, LocalDate date) {
+    public Menu(Long id, Restaurant restaurant, LocalDate date) {
         super(id);
         this.restaurant = restaurant;
         this.date = date;

@@ -5,7 +5,7 @@ package com.fdobrotv.rps.models;
  */
 public class Health {
     String header;
-    Health(String str) {
+    public Health(String str) {
         setHeader(str);
     }
 

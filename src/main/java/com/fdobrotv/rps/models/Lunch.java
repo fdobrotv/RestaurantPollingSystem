@@ -23,7 +23,7 @@ public class Lunch extends NamedEntity {
     public Lunch() {
     }
 
-    public Lunch(Integer id, String name, int priceInCents) {
+    public Lunch(Long id, String name, int priceInCents) {
         super(id, name);
         this.price = priceInCents;
     }
